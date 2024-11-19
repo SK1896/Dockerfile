@@ -9,5 +9,5 @@ COPY ./dev.html /usr/local/apache2/htdocs/
 EXPOSE 80
 
 # Run Apache in the foreground
-CMD ["httpd -D FOREGROUND"]
+CMD ["httpd-FOREGROUND"]
 
