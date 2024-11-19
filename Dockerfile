@@ -1,5 +1,5 @@
 FROM httpd:2.4
-WORKDIR /mnt
+WORKDIR /mnt/velocity
 
 
 # Copy the dev.html file into the Apache document root
